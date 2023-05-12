@@ -17,9 +17,10 @@ $dat = json_decode(file_get_contents("https://api.datos.gob.mx/v1/inai.solicitud
 $datos=$dat['results'];
 
 $mdb = json_decode(file_get_contents("https://www.omdbapi.com/?s=galaxy&apikey=2d2f68c7"),true);
-$data=$mdb['results'];
 
- echo $data
+var_dump($mdb)
+//$data=$mdb['results'];
+
 /*
 for ($i = 0; $i < 5; $i += 1 )  {
   echo $data[$i]["Title"]
