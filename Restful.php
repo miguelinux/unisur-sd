@@ -24,6 +24,7 @@ $data=$mdb['Search'];
 
 //for ($i = 0; $i <= 3; $i++) {
   echo $data[0]['Title']
+  echo $data[1]['Title']
 //}
 
 /*
