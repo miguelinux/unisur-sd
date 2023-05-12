@@ -21,16 +21,20 @@ $mdb = json_decode(file_get_contents("https://www.omdbapi.com/?s=galaxy&apikey=2
 //var_dump($mdb)
 $data=$mdb['Search'];
 
+for ($i = 1; $i <= 10; $i++) {
+  echo $i;
+}
+
+/*
 for ($i = 0; $i < 5; $i = $i + 1 )  {
   echo $data[$i]["Title"]
-/*
   echo "Titulo: ".$data[$i]["Title"]."<br>"
   echo "Año:".$data[$i]["Year"]."<br>"
   echo "ID:".$data[$i]["imdbID"]."<br>"
   echo "Type".$data[$i]["Type"]."<br>"
   echo "<img src=".$data[$i]["Poster"]."><br>"
- */
 }
+ */
 ?>
 
 
