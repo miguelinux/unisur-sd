@@ -22,9 +22,9 @@ $mdb = json_decode(file_get_contents("https://www.omdbapi.com/?s=galaxy&apikey=2
 $data=$mdb['Search'];
 //var_dump($data)
 
-for ($i = 0; $i <= 3; $i++) {
+//for ($i = 0; $i <= 3; $i++) {
   echo $data[0]['Title']
-}
+//}
 
 /*
 for ($i = 0; $i < 5; $i = $i + 1 )  {
