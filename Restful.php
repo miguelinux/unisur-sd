@@ -23,8 +23,7 @@ $data=$mdb['Search'];
 //var_dump($data)
 
 //for ($i = 0; $i <= 3; $i++) {
-  echo $data[0]['Title']
-  echo $data[1]['Title']
+  var_dump($data[0])
 //}
 
 /*
