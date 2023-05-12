@@ -20,8 +20,9 @@ $mdb = json_decode(file_get_contents("https://www.omdbapi.com/?s=galaxy&apikey=2
 
 //var_dump($mdb)
 $data=$mdb['Search'];
-var_dump($data)
+//var_dump($data)
 
+echo $data[0]["Title"]
 /*
 for ($i = 1; $i <= 10; $i++) {
   echo $i;
